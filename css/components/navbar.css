@@ -1,0 +1,25 @@
+#nav-amanda{
+  padding: 0;
+}
+.navbar-lewagon {
+  justify-content: space-between;
+  background-color: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  
+}
+.navbar-lewagon p{
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: aliceblue;
+  padding-right: 20px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
