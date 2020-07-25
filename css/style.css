@@ -3,6 +3,11 @@
 @import url("components/navbar.css");
 @import url("components/banner.css");
 @import url("components/cards.css");
+@import url("components/about.css");
+
+body {
+  overflow-x: hidden;
+}
 
 #wrapper-main-info{
   padding-left: 30px;
@@ -20,6 +25,7 @@
 }
 
 #image-profile img{
+  margin-top: 40px;
   border-radius: 50%;
   max-height: 200px;
   max-width: 200px;
@@ -27,3 +33,4 @@
   margin-left: auto;
   margin-right: auto 
 }
+

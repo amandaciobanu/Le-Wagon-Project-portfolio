@@ -1,17 +1,30 @@
-.banner {
-  background-size: cover;
+.banner-img {
+  object-fit: cover;
+  height: 100vh;
+  background-attachment: fixed;
   background-position: center;
-  min-height: 100vh;
-}
-.banner h2,h5{
-  color: aliceblue;
-  letter-spacing: 10px;
-  font-family: 'Comfortaa', cursive;
-  padding-left: 280px;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner h2{
-  margin-top: 280px;
+.banner-text-box {
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  padding-top: 150px;
+}
+
+.banner-text-box h2{
+  padding-top: 95px;
   font-weight: 400;
+  padding-left: 300px;
+  letter-spacing: 8px;
+  color: rgb(239,73,117);
+}
+
+.banner-text-box h4{
+  margin-top: 30px;
+  font-weight: 400;
+  letter-spacing: 5.5px;
+  color: white;
+  padding-left: 300px;
 }
