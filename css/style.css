@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+#wrapper-main-info{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+}
+.postifolio h2{
+  color: rgb(239,73,117);
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#image-profile img{
+  border-radius: 50%;
+  max-height: 200px;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}

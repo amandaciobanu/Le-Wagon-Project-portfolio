@@ -4,20 +4,24 @@
 .navbar-lewagon {
   justify-content: space-between;
   background-color: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  font-family: 'Comfortaa', cursive;
   
 }
 .navbar-lewagon p{
   color: aliceblue;
   padding-left: 20px;
+  letter-spacing: 10px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
   color: aliceblue;
+  letter-spacing: 3px;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: aliceblue;
   padding-right: 20px;
+  letter-spacing: 3px;
 }
 
 .navbar-lewagon .navbar-collapse {

@@ -3,3 +3,15 @@
   background-position: center;
   min-height: 100vh;
 }
+.banner h2,h5{
+  color: aliceblue;
+  letter-spacing: 10px;
+  font-family: 'Comfortaa', cursive;
+  padding-left: 280px;
+  
+}
+
+.banner h2{
+  margin-top: 280px;
+  font-weight: 400;
+}
