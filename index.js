@@ -1,3 +1,14 @@
+
+const updateNavbarState = (navbar) => {
+  if (window.scrollY) {
+    console.log("not at the top")
+    navbar.classList.add('navbar-pink');
+  } else {
+    console.log("at the top")
+    navbar.classList.remove('navbar-pink');
+  }
+}
+
 $(document).ready(function () {
 	$(".card")
 		.delay(1800)
@@ -5,18 +16,9 @@ $(document).ready(function () {
 			$(this).removeClass("hover");
 			$("a.hover").removeClass("hover");
 			next();
-		});
-});
-
-const initUpdateNavbarOnScroll = () => {
-  const navbar = document.querySelector('#navbar-wrapper');
-  if (navbar) {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY) {
-        navbar.classList.add('navbar-pink');
-      } else {
-        navbar.classList.remove('navbar-pink');
-      }
     });
-  }
-}
+    
+    const navbar = document.querySelector('#navbar-wrapper');
+    window.addEventListener('scroll', () => updateNavbarState(navbar));
+    updateNavbarState(navbar);
+});
