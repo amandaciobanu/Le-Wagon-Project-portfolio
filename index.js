@@ -18,7 +18,7 @@ $(document).ready(function () {
 			next();
     });
     
-    const navbar = document.querySelector('#navbar-wrapper');
+    const navbar = document.querySelector('#navbar-core');
     window.addEventListener('scroll', () => updateNavbarState(navbar));
     updateNavbarState(navbar);
 });
