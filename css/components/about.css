@@ -1,31 +1,13 @@
-#main-container {
-  display: flex;
-  justify-content: center;
+.img-profile img{
+  max-width: 400px;
 }
 
-.about-text {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  margin: 0 auto;
+.text-about-me{
+  margin-top: 10px;
+  width: 430px;
 }
-
-.text-box-1 {
-  margin-left: 150px;
-  color: #222;
-  width: 450px;
+.text-about-me p{
+  line-height: 22px;
+  font-size: 16px;
   text-align: justify;
-  display: flex;
-  padding: 30px;
-  align-items: flex-start;
-}
-
-.text-box-2 {
-  margin-left: 90px;
-  color: #222;
-  width: 450px;
-  text-align: justify;
-  display: flex;
-  padding: 30px;
-  align-items: flex-start;
 }

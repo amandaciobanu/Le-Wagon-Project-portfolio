@@ -1,156 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Amanda Ciobanu</title>
 </head>
+
 <body>
-  
 
-  <!--Banner & Navbar-->
-    <div class="container-fluid p-0 m-0 banner-img">
 
-      <nav id="navbar-core" class="navbar navbar-expand-sm navbar-default fixed-top navbar-core" >
+  <!--Navbar-->
+  <header>
+    <div class="container">
+      <nav id="navbar-core" class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand" href="#">A | C</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-right">
+          <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link1</a>
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link2</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link3</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-
-      <div class="row m-0">
-        <div class="col p-0">
-            <div class="banner-text-box">
-              <div class="banner-text">
-                <h2>AMANDA CIOBANU</h2>
-                <h4>Junior Full Stack Developer</h4>
-              </div>
-          </div>
-          </div>
-        </div>  
+    </div>
+  </header>
+   <!--Banner-->
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Amanda Ciobanu</h2>
+          <h4>Junior Full-Stack Developer</h4>
+        </div>
       </div>
     </div>
-
-  <!--Info-->
-  <div id="row wrapper-main-info">
-    <div class="postifolio">
+  </section>
+  <!--Portfolio-->
+  <div class="container">
+    <div id="portfolio">
       <h2>PORTFOLIO</h2>
     </div>
-
-  <!--Card Section-->  
-    <div class="card">
-      <div class="card-img" style="background-image:url(./images/balacercuted.jpg);">
-        <div class="overlay">
-          <div class="overlay-content">
-            <a class="hover" href="http://www.balancer.online/" target="_blank">View Project</a>
-          </div>
+  </div>
+   <!--Cards-->
+  <div class="card hover">
+    <div class="card-img" style="background-image:url(./images/balancer-card.png);">
+      <div class="overlay">
+        <div class="overlay-content">
+          <a class="hover" href="http://www.balancer.online/" target="_blank">View Project</a>
         </div>
-      </div>
-      
-      <div class="card-content">
-        <a href="http://www.balancer.online/" target="_blank">
-          <h2><strong>Balancer</strong></h2>
-          <p>Final Project | <strong>Le Wagon Bootcamp</strong></p>
-        </a>
       </div>
     </div>
     
-    <div class="card">
-      <div class="card-img" style="background-image:url(./images/biroucuted.jpg);">
-        <div class="overlay">
-          <div class="overlay-content">
-            <a href="http://birou.herokuapp.com/" target="_blank">View Project</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card-content">
-        <a href="http://birou.herokuapp.com/" target="_blank">
-          <h2><strong>Birou</strong></h2>
-          <p>Team Project| <strong>Le Wagon Bootcamp</strong></p>
-        </a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="card-img" style="background-image:url(./images/mistercocktail.jpg);">
-        <div class="overlay">
-          <div class="overlay-content">
-            <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">View Project</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card-content">
-        <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">
-          <h2><strong>Mister Cocktail</strong></h2>
-          <p>Solo Project | <strong>Le Wagon Bootcamp</strong></p>
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-img" style="background-image:url(./images/lightrgb.jpg)">
-        <div class="overlay">
-          <div class="overlay-content">
-            <a href="https://github.com/amandaciobanu/rbg_guessingGame" target="_blank">View Project</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="card-content">
-        <a href="https://github.com/amandaciobanu/rbg_guessingGame" target="_blank">
-          <h2><strong>RGB Game</strong></h2>
-          <p>Solo Project | <strong>Udemy Online</strong></p>
-        </a>
-      </div>
+    <div class="card-content">
+      <a href="http://www.balancer.online/" target="_blank">
+        <h2>Balancer</h2>
+        <p>Team Project | Le Wagon</p>
+      </a>
     </div>
   </div>
-  <!--About Me-->
-  <div id="wrapper-about-me">
-    <div class="postifolio">
+  
+  <div class="card">
+    <div class="card-img" style="background-image:url(./images/birou-long.png);">
+      <div class="overlay">
+        <div class="overlay-content">
+          <a href="http://birou.herokuapp.com/" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-content">
+      <a href="http://birou.herokuapp.com/" target="_blank">
+        <h2>Birou</h2>
+        <p>Team Project | Le Wagon</p>
+      </a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-img" style="background-image:url(./images/mistercocktail.jpg);">
+      <div class="overlay">
+        <div class="overlay-content">
+          <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-content">
+      <a href="https://amanda-ciobanu-cocktail.herokuapp.com/" target="_blank">
+        <h2>Mister Cocktail</h2>
+        <p>Solo Project | Le Wagon</p>
+      </a>
+    </div>
+  </div>
+  <!--Cards/End-->
+   <!--About Me-->
+  <div class="container">
+    <div id="about-me">
       <h2>ABOUT ME</h2>
     </div>
-    <div id="image-profile">
-      <img src="./images/profilepicuture.jpg" alt="amandaciobanu">
-    </div>
-    <div class="main-container">
-      <div class="about-text">
-        <div class="text-box-1">
-          At the begging of 2020, I decided to pursue a new and exciting career in software development.
-          To fulfill this objective I attended Le Wagon Bootcamp (full-time) in Lisbon which I have graduated in July 2020 (batch #419).
-          During the 9 weeks of the Bootcamp, I have found myself passionate about the entire process 
-          of creating a web application, including prototyping, deploying, and the inevitable bug-fixing.
-        </div>   
-        <div class="text-box-2">
-          The learning process never stops - I am continuously working on deepening the skills 
-          I acquired during the Bootcamp and acquiring new ones that were not part of the curriculum.
-          Looking forward to my next challenge where I can become a great developer, 
-          work on meaningful products, and be an active member of the tech community. 
-        </div>
-      </div>  
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="img-profile">
+          <div data-aos="zoom-in" data-aos-duration="1200">
+            <img src="./images/profilepicuture.jpg" alt="Amanda Ciobanu">
+          </div>  
+        </div> 
+      </div>
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="text-about-me">
+          <div data-aos="fade-left" data-aos-duration="1200">
+            <p>At the begging of 2020, I decided to pursue a new and exciting career in software development. 
+            To fulfill this objective, I attended Le Wagon Bootcamp (full-time) in Lisbon which I have graduated in July 2020 (batch #419).</p>
+            <p>During the 9 weeks of the Bootcamp, I have found myself passionate about the entire process of creating a web application, 
+            including prototyping, deploying, and the inevitable bug-fixing.</p>
+            <p>The learning process never stops - I am continuously working on deepening the skills 
+            I acquired during the Bootcamp and acquiring new ones that were not part of the curriculum.</p>
+            <p>Looking forward to my next challenge where I can become a great developer, work on meaningful products,
+            and be an active member of the tech community.</p>
+          </div>  
+        </div> 
+      </div>
     </div>
   </div>
+   <!--Skills-->
+  <div class="container">
+    <div id="skills">
+      <h2>SKILLS</h2>
+    </div> 
+  </div>
+  <!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Third slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+    
   <script src="./index.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>

@@ -4,33 +4,62 @@
 @import url("components/banner.css");
 @import url("components/cards.css");
 @import url("components/about.css");
+@import url("components/skills.css");
 
-body {
-  overflow-x: hidden;
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 }
 
-#wrapper-main-info{
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 50px;
+:root{
+  --text-light: rgba(255,255,255, 0.7);
+  --text-lighter: rgba(239,73,117,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
 }
-.postifolio h2{
-  color: rgb(239,73,117);
-  font-weight: 400;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  letter-spacing: 10px;
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
   font-family: 'Comfortaa', cursive;
 }
 
-#image-profile img{
-  margin-top: 40px;
-  border-radius: 50%;
-  max-height: 200px;
-  max-width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
+body{
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
 }
 
+#portfolio h2{
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 8px;
+  color: rgb(239,73,117);
+  margin-bottom: 20px;
+}
+
+#about-me h2{
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 8px;
+  color: rgb(239,73,117);
+  margin-bottom: 40px;
+}
+
+#skills h2{
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 8px;
+  color: rgb(239,73,117);
+  margin-bottom: 40px;
+}

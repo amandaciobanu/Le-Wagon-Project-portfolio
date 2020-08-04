@@ -1,15 +1,14 @@
 
 const updateNavbarState = (navbar) => {
   if (window.scrollY) {
-    console.log("not at the top")
     navbar.classList.add('navbar-pink');
   } else {
-    console.log("at the top")
     navbar.classList.remove('navbar-pink');
   }
 }
 
 $(document).ready(function () {
+
 	$(".card")
 		.delay(1800)
 		.queue(function (next) {
