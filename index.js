@@ -9,6 +9,28 @@ const updateNavbarState = (navbar) => {
 
 $(document).ready(function () {
 
+  var lang = {
+    "html": "80%",
+    "css": "75%",
+    "javascript": "60%",
+    "php": "55%",
+    "angular": "50%"
+  };
+  
+  var multiply = 4;
+  
+  $.each( lang, function( language, pourcent) {
+  
+    var delay = 700;
+    
+    setTimeout(function() {
+      $('#'+language+'-pourcent').html(pourcent);
+    },delay*multiply);
+    
+    multiply++;
+  
+  });
+
 	$(".card")
 		.delay(1800)
 		.queue(function (next) {

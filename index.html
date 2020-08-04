@@ -15,7 +15,9 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/59d46e0be8.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -158,127 +160,58 @@
       <h2>SKILLS</h2>
     </div> 
   </div>
-  <!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+  <ul class="skills-bar-container">
 
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
-    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
-            alt="Card image cap">
-        </div>
+    <li>
+      <div class="progressbar-title">
+        <h5> <i class="fa fa-html5" aria-hidden="true"></i> HTML5</h5>
+        <span class="percent" id="html-pourcent"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
-            alt="Card image cap">
-        </div>
+      <div class="bar-container">
+        <span class="progressbar progressred" id="progress-html"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
-            alt="Card image cap">
-        </div>
+    </li>
+    <li>
+      <div class="progressbar-title">
+        <h5> <i class="fa fa-css3" aria-hidden="true"></i> CSS / SASS</h5>
+        <span class="percent" id="css-pourcent"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
-            alt="Card image cap">
-        </div>
+      <div class="bar-container">
+        <span class="progressbar progressblue" id="progress-css"></span>
       </div>
-
-    </div>
-    <!--/.First slide-->
-
-    <!--Second slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
-            alt="Card image cap">
-        </div>
+    </li>
+  
+    <li>
+      <div class="progressbar-title">
+        <h5> <i class="fa fa-diamond" aria-hidden="true"></i> RUBY</h5>
+        <span class="percent" id="javascript-pourcent"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
-            alt="Card image cap">
-        </div>
+      <div class="bar-container">
+        <span class="progressbar progresspurple" id="progress-javascript"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
-            alt="Card image cap">
-        </div>
+    </li>
+  
+    <li>
+      <div class="progressbar-title">
+        <h5> <i class="fab fa-js-square"></i> JavaScript</h5>
+        <span class="percent" id="php-pourcent"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
-            alt="Card image cap">
-        </div>
+      <div class="bar-container">
+        <span class="progressbar progressorange" id="progress-php"></span>
       </div>
-
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
-            alt="Card image cap">
-        </div>
+    </li>
+  
+    <li>
+      <div class="progressbar-title">
+        <h5> <i class="fas fa-train"></i> Ruby on Rails</h5>
+        <span class="percent" id="angular-pourcent"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
-            alt="Card image cap">
-        </div>
+      <div class="bar-container">
+        <span class="progressbar progressgreen" id="progress-angular"></span>
       </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
-            alt="Card image cap">
-        </div>
-      </div>
-
-      <div class="col-md-3 mb-3">
-        <div class="card">
-          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
-            alt="Card image cap">
-        </div>
-      </div>
-
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-    
+    </li>
+  </ul>
+  
   <script src="./index.js"></script>
   <script>
     AOS.init();
