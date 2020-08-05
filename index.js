@@ -14,7 +14,9 @@ $(document).ready(function () {
     "css": "75%",
     "javascript": "60%",
     "php": "55%",
-    "angular": "50%"
+    "angular": "50%",
+    "boostrap": "55%",
+    "github": "65%",
   };
   
   var multiply = 4;

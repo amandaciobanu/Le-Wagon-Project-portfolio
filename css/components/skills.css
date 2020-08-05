@@ -92,7 +92,25 @@
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
+.skills-bar-container li .bar-container #progress-boostrap {
+  -webkit-animation-name: progress-boostrap;
+  animation-name: progress-boostrap;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.skills-bar-container li .bar-container #progress-github {
+  -webkit-animation-name: progress-guithub;
+  animation-name: progress-github;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
 
+.progresspink {
+  background-color: #F700BA
+}
+.progressruge {
+  background-color: #03C383;
+}
 .progressred {
   background-color: #ff0000
 }
@@ -157,6 +175,23 @@
     width: 50%;
   }
 }
+
+@-webkit-keyframes progress-boostrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@-webkit-keyframes progress-github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
 @-moz-keyframes progress-html {
   0% {
     width: 0%;
@@ -194,7 +229,24 @@
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 50%;
+  }
+}
+@-moz-keyframes progress-boostrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@-moz-keyframes progress-github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
   }
 }
 @keyframes progress-html {
@@ -235,6 +287,22 @@
   }
   100% {
     width: 50%;
+  }
+}
+@keyframes progress-boostrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes progress-github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
   }
 }
 
