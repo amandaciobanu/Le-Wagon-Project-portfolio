@@ -76,6 +76,23 @@ body{
   color: rgb(239,73,117);
   margin-bottom: 40px;
 }
+
+@media(max-width: 768px)
+{
+  #portfolio h2{
+    font-size: 28px;
+  }
+  #about-me h2{
+    font-size: 28px;
+  }
+  #skills h2{
+    font-size: 28px;
+  }
+  #contact h2{
+    font-size: 28px;
+  }
+}
+
 .location{
   float: right;
   font-size: 20px;
