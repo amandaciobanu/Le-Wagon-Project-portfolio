@@ -6,13 +6,13 @@
   background-color: rgb(239,73,117);
 }
 .navbar-light .navbar-brand{
+  padding: 15px;
   font-weight: 400;
   font-size: 1.5em;
   color: #ffffff;
   letter-spacing: 3px;
   font-family: 'Comfortaa', cursive;
   text-decoration: none;
-  padding-left: 30px;
 }
 
 .navbar-light .navbar-brand:hover{
@@ -29,7 +29,6 @@
 .navbar-light .navbar-nav .nav-link{
   color: #ffffff;
   letter-spacing: 3px;
-  padding-right: 30px;
   padding-left: 20px;
 }
 
