@@ -5,6 +5,7 @@
 @import url("components/cards.css");
 @import url("components/about.css");
 @import url("components/skills.css");
+@import url("components/footer.css");
 
 header {
   position: absolute;
@@ -74,4 +75,22 @@ body{
   letter-spacing: 8px;
   color: rgb(239,73,117);
   margin-bottom: 40px;
+}
+.location{
+  float: right;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.email{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.fa-envelope{
+  color: rgb(239,73,117);
+}
+
+.fa-street-view{
+  color: rgb(239,73,117);
 }
