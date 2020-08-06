@@ -58,7 +58,7 @@ body{
   margin-top: 40px;
   letter-spacing: 8px;
   color: rgb(239,73,117);
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #skills h2{
@@ -69,13 +69,6 @@ body{
   margin-bottom: 40px;
 }
 
-#contact h2{
-  text-align: center;
-  margin-top: 40px;
-  letter-spacing: 8px;
-  color: rgb(239,73,117);
-  margin-bottom: 40px;
-}
 
 @media(max-width: 768px)
 {
@@ -83,12 +76,6 @@ body{
     font-size: 28px;
   }
   #about-me h2{
-    font-size: 28px;
-  }
-  #skills h2{
-    font-size: 28px;
-  }
-  #contact h2{
     font-size: 28px;
   }
 }

@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 80px;
+  margin-top: 200px;
   background: rgb(239,73,117);
   display: flex;
   align-items: center;
@@ -22,7 +22,4 @@
 }
 .footer-links a:hover {
   opacity: 0.5;
-}
-.footer .fa-heart {
-  color: #D23333;
 }
